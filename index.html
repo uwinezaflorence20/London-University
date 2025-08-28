@@ -1,75 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Vite App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <title>Vite App</title>
-</head>
+  <body class="bg-white">
+    <div class="flex justify-between">
+      <div class="flex justify-center items-center pl-10">
+        <img src="./public/logo (1).svg" alt="" class="" />
+      </div>
 
-<body class="bg-white">
-  <nav>
-  <div class="flex justify-between">
-    <div class="pt-4 pl-8">
-      <img src="./public/logo (1).svg" alt="" class="" />
-    </div>
-    <div class="">
-      <img src="./public/shape-nav-bar-16px (1).svg" />
-    </div>
-  </div>
-
-  <div class="flex justify-end pt-0.5">
-    <ul class="flex flex-row  text-md text-[#333] font-bold items-center ">
-      <li class="hover:bg-[#333] p-7 hover:text-white">Study</li>
-      <li class="hover:bg-[#333] p-7 hover:text-white">Course Finder</li>
-      <li class="hover:bg-[#333] p-7 hover:text-white">International</li>
-      <li class="flex flex-row gap-2 justify-center items-center  hover:bg-[#333] p-7 hover:text-white">
-        More
-        <i class="fa-solid fa-angle-down pt-1.5"></i>
-      </li>
-      <li class="hover:bg-[#333] p-7 hover:text-white flex justify-center items-center gap-2 pr-16">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <p>Search</p>
-      </li>
-    </ul>
-  </div>
-  </nav>
-
-  <div>
-    <img src="./public/1.png" alt="" class="w-full object-cover relative">
-    <img src="./public/Clearing_text_desktop (1).svg" alt="" class="w-[30%] object-cover absolute left-4 top-40 ">
-    <div class="absolute left-8 top-[500px] flex flex-col justify-center items-center gap-2">
-      <button class="w-68 rounded-xl bg-white border-4  font-bold  p-4">Apply now through Clearing</button>
-      <button class="w-68 rounded-xl bg-white border-4  font-bold  p-4">Learn more about Clearing</button>
-    </div>
-  </div>
-
-  <div class="h-60 grid grid-cols-4 bg-[#fcdede] px-10">
-    <div class="hover:bg-[#333] flex flex-col justify-center items-center gap-8">
-      <i class="fa-solid fa-magnifying-glass text-4xl"></i>
-      <p class=" font-bold text-md">Search our courses</p>
-    </div>
-    <div class="hover:bg-[#333] flex flex-col justify-center items-center gap-8">
-      <i class="fa-solid fa-door-open text-4xl"></i>
-      <p class=" font-bold text-md">Open Days and visits</p>
-    </div>
-    <div class="hover:bg-[#333] flex flex-col justify-center items-center gap-8">
-      <i class="fa-solid fa-house text-4xl"></i>
-      <p class=" font-bold text-md">Accommodation Option</p>
-    </div>
-    <div class="hover:bg-[#333] flex flex-col justify-center items-center gap-8">
-      <i class="fa-solid fa-message text-4xl"></i>
-      <p class=" font-bold text-md">Chat with Our student</p>
+      <div class="flex flex-col justify-end pt-0.5">
+        <div class="pl-96">
+          <img src="./public/shape-nav-bar-16px (1).svg" />
+        </div>
+        <div class="">
+          <ul class="flex flex-row text-md text-[#333] font-bold items-center">
+            <li class="hover:bg-[#333] px-8 py-4 hover:text-white">Study</li>
+            <li class="hover:bg-[#333] px-8 py-4 hover:text-white">
+              Course Finder
+            </li>
+            <li class="hover:bg-[#333] px-8 py-4 hover:text-white">
+              International
+            </li>
+            <li
+              class="flex flex-row gap-2 justify-center items-center hover:bg-[#333] px-8 py-4 hover:text-white"
+            >
+              More
+              <i class="fa-solid fa-angle-down pt-1.5"></i>
+            </li>
+            <li
+              class="hover:bg-[#333] px-8 py-4 hover:text-white flex justify-center items-center gap-2 pr-20"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <p>Search</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-  </div>
+    <!-- second -->
+    <div>
+      <img src="./public/1.png" alt="" class="w-full object-cover relative" />
+      <img
+        src="./public/Clearing_text_desktop (1).svg"
+        alt=""
+        class="w-[30%] object-cover absolute left-4 top-40"
+      />
+      <div
+        class="absolute left-10 top-[500px] flex flex-col justify-center items-center gap-2"
+      >
+        <button class="w-68 rounded-xl bg-[#FAF0E1] border-4 font-bold p-4">
+          Apply now through Clearing
+        </button>
+        <button class="w-68 rounded-xl bg-[#FAF0E1] border-4 font-bold p-4">
+          Learn more about Clearing
+        </button>
+      </div>
+    </div>
 
+    <div class="h-60 grid grid-cols-4 bg-[#FAF0E6] px-10">
+      <div
+        class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8"
+      >
+        <i class="fa-solid fa-magnifying-glass text-4xl"></i>
+        <p class="font-bold text-md">Search our <br />courses</p>
+      </div>
+      <div
+        class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8"
+      >
+        <i class="fa-solid fa-door-open text-4xl"></i>
+        <p class="font-bold text-md">Open Days and <br />visits</p>
+      </div>
+      <div
+        class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8"
+      >
+        <i class="fa-solid fa-house text-4xl"></i>
+        <p class="font-bold text-md">Accommodation <br />Option</p>
+      </div>
+      <div
+        class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8"
+      >
+        <i class="fa-solid fa-message text-4xl"></i>
+        <p class="font-bold text-md">Chat with Our <br />student</p>
+      </div>
+    </div>
 
+    <!-- third -->
+    <div class="bg-[#F6F7F7] h-32"></div>
+    <!-- fourth -->
 
+    <div class="bg-[#FFCD6E] flex flex-row mb-8">
+      <div
+        class="flex-4 px-2 flex justify-center items-center text-2xl font-extrabold"
+      >
+        <p>
+          There are places available across a <br />number of our halls. If you
+          apply to<br />
+          Goldsmiths for 2025 entry, you will<br />
+          receive a guaranteed offer of<br />
+          accommodation.
+        </p>
+      </div>
+      <div class="flex-2 flex justify-center items-center">
+        <button
+          class="w-44 mr-8 bg-[#FAF0E1] border-1 border-b-4 font-bold p-4"
+        >
+          How to apply
+        </button>
+      </div>
+      <div class="flex-4">
+        <img src="./public/Accommodation-homepage.jpeg" alt="" class="h-64" />
+      </div>
+    </div>
 
-  <script type="module" src="/src/main.js"></script>
-</body>
+    <div class="grid grid-cols-2">
+      <div class="">
+        <h1 class="">Open Days</h1>
+        <p>
+          Find out more about what makes life at Goldsmiths unique. Meet
+          academics and have your questions answered. From campus tours to
+          informative talks there’s lots to see and do.
+        </p>
 
+        <div class="flex-2 flex justify-center items-center">
+        <button
+          class="w-44 mr-8 bg-[#FAF0E1] border-1 border-b-4 font-bold p-4"
+        >
+          How to apply
+        </button>
+      </div>
+      </div>
+      <div>
+        <img src="./public/open-days-v3.jpeg" alt="" />
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
