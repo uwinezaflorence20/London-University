@@ -47,11 +47,12 @@
 
 
    <div class="flex flex-row md:flex-col md:mt-0 mt-8 ">
-    <img src="./public/1.png" alt="" class="w-full object-cover relative" />
-    <img src="./public/Clearing_text_desktop (1).svg" alt="" class="w-[30%] object-cover absolute left-4 top-40" />
+    <img src="./public/1.png" alt="" class="w-full hidden md:block object-cover relative" />
+    <img src="./public/WhatsApp_Image_2025-09-02_at_09.41.31_07d6c4c6.jpg" alt="" class="w-full md:hidden block object-cover relative" />
+    <img src="./public/Clearing_text_desktop (1).svg" alt="" class=" w-[80%] md:w-[30%] object-cover absolute left-4 top-28 md:top-40" />
   
   </div>
-    <div class=" absolute left-10 top-[500px] flex flex-col justify-center items-center gap-2">
+    <div class=" absolute left-10 pt-28 md:pt-0  top-[500px] flex flex-col justify-center items-center gap-2">
       <button class="w-68 rounded-xl bg-[#FAF0E1] border-4 font-bold p-4">
         Apply now through Clearing
       </button>
@@ -60,49 +61,49 @@
       </button>
     </div> 
 
-  <div class="h-60 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-[#333333] bg-[#FAF0E6] px-10">
-    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8">
+  <div class="md:h-60 grid   grid-cols-2 md:grid-cols-4 text-[#333333] bg-[#FAF0E6] p-8 md:px-10">
+    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8 md:p-0 p-4 ">
       <i class="fa-solid fa-magnifying-glass text-4xl"></i>
       <p class="font-bold text-md">Search our <br />courses</p>
     </div>
-    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8">
+    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8 md:p-0 p-4 ">
       <i class="fa-solid fa-door-open text-4xl"></i>
       <p class="font-bold text-md">Open Days and <br />visits</p>
     </div>
-    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8">
+    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8 md:p-0 p-4 ">
       <i class="fa-solid fa-house text-4xl"></i>
       <p class="font-bold text-md">Accommodation <br />Option</p>
     </div>
-    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8">
+    <div class="hover:bg-[#333333] hover:text-white flex flex-col justify-center items-center gap-8 md:p-0 p-4 ">
       <i class="fa-solid fa-message text-4xl"></i>
       <p class="font-bold text-md">Chat with Our <br />student</p>
     </div>
   </div>
 
-  <div class="bg-[#F6F7F7] h-32"></div>
+  <div class=" hidden md:block bg-[#F6F7F7] h-32"></div>
 
 
   <div class="bg-[#FFCD6E] text-[#333333] flex flex-col md:flex-row mb-8">
-    <div class="mt-20 md:mt-0 md:flex-4 md:ml-4 flex justify-center items-center md:text-2xl md:font-extrabold">
+    <div class="mt-10  md:mt-0 md:flex-4 ml-4 flex justify-center items-center text-2xl font-extrabold">
       <p>
-        There are places available across a <br />number of our halls. If you
-        apply to<br />
-        Goldsmiths for 2025 entry, you will<br />
-        receive a guaranteed offer of<br />
+        There are places available across a <br class="md:block hidden" />number of our halls. If you
+        apply to<br class="md:block hidden" />
+        Goldsmiths for 2025 entry, you will<br class="md:block hidden" />
+        receive a guaranteed offer of<br class="md:block hidden" />
         accommodation.
       </p>
     </div>
-    <div class="flex-2 flex justify-center items-center">
+    <div class="flex-2 pt-8 md:pt-0 ml-4 md:ml-0 flex items-start  md:justify-center md:items-center">
       <button class="w-44 mr-4 bg-[#FAF0E1] border-1 border-b-4 font-bold p-4">
         How to apply
       </button>
     </div>
-    <div class="flex-4 right-0 ml-20">
+    <div class="flex-4 right-0 ml-20 pt-8 md:pt-0">
       <img src="./public/Accommodation-homepage.jpeg" alt="" class="h-64" />
     </div>
   </div>
 
-  <div class="text-[#333333] h-80 grid grid-cols-1 md:grid-cols-2 px-10 mb-6">
+  <div class="text-[#333333] h-80 hidden  md:grid  md:grid-cols-2 px-10 mb-6">
     <div class="space-y-6 flex flex-col justify-center">
       <h1 class="text-4xl font-bold">Open Days</h1>
       <p class="font-medium">
@@ -123,10 +124,34 @@
     </div>
   </div>
 
+  <div class="text-[#333333] h-80 grid grid-cols-1  md:hidden px-10 mb-6">
+    <div>
+      <img src="./public/open-days-v3.jpeg" alt="" class="h-60" />
+    </div>
+    <div class="space-y-6 pt-20 flex flex-col justify-center">
+      <h1 class="text-4xl font-bold">Open Days</h1>
+      <p class="font-medium">
+        Find out more about what makes life at Goldsmiths<br />
+        unique. Meet academics and have your questions<br />
+        answered. From campus tours to informative talks<br />
+        there’s lots to see and do.
+      </p>
+
+      <div class="">
+        <button class="w-52 mr-8 bg-[#FFCD6E] border-1 border-b-4 border-[#333333] font-bold p-4">
+          Book your Place
+        </button>
+      </div>
+    </div>
+    
+  </div>
+
+  
 
 
-  <div class="bg-[#F6F7F7] text-[#333333] grid grid-cols-1 md:grid-cols-2 md:pt-24 md:pb-10 md:px-10 md:gap-4">
-    <div class="space-y-8">
+
+  <div class="bg-[#F6F7F7] pt-80   text-[#333333] grid grid-cols-1 md:grid-cols-2 md:pt-24 md:pb-10 md:px-10 md:gap-4">
+    <div class="space-y-8 px-10 md:px-0">
       <h1 class="text-4xl font-bold">Who we are</h1>
       <p class="font-medium">
         We offer a space for self-discovery, delivering world-leading<br />
@@ -163,9 +188,9 @@
   </div>
 
 
-  <div class="px-10 pb-80">
+ <div class=" px-4 md:px-10 pb-80">
     <p class="font-bold text-4xl py-12">Goldsmiths Life</p>
-    <div class="flex gap-4 h-96">
+    <div class="md:flex gap-4 h-96">
       <div class="flex flex-col gap-4 flex-[6] h-full">
         <div class="relative flex-1">
           <img src="./public/walking-past-ben-pimlott-800.jpeg" alt="" class="w-full h-[310px] object-cover" />
@@ -190,9 +215,9 @@
         </div>
       </div>
 
-      <div class="flex-[4] h-full relative">
-        <img src="./public/accommodation-810.jpeg" alt="" class="w-full h-[640px] object-cover" />
-        <div class="absolute top-[488px] bg-[#FAF0E6] space-y-3 p-4">
+      <div class="pt-[280px] md:pt-0 flex-[4] md:h-full relative">
+        <img src="./public/accommodation-810.jpeg" alt="" class="w-full h-[315px] md:h-[640px] object-cover" />
+        <div class="absolute top-[445px] md:top-[488px] bg-[#FAF0E6] space-y-3 p-4">
           <p class="font-bold text-3xl">Accomodation</p>
           <p class="font-normal">
             Learn more about the range of<br />accomodation choices<br />
@@ -204,7 +229,7 @@
   </div>
 
 
-<div class="bg-[#F6F7F7] pt-24 pb-10 px-10">
+<div class="bg-[#F6F7F7] pt-80 md:pt-24 pb-10 px-4  md:px-10">
   <p class="text-5xl font-bold pb-12 ">Meet our students</p>
   <div class=" text-[#333333] flex flex-col md:flex-row   ">
     <div class="space-y-8 flex-6 ">
@@ -217,7 +242,7 @@
 
     <div class="flex-4 overflow-y-scroll h-[400px] space-y-6  bg-[#DDDDDD]">
       <div class="flex flex-row md:flex-col gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class=" w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -226,7 +251,7 @@
         </div>
       </div>
       <div class="flex gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -235,7 +260,7 @@
         </div>
       </div>
       <div class="flex gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -244,7 +269,7 @@
         </div>
       </div>
       <div class="flex gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -253,7 +278,7 @@
         </div>
       </div>
       <div class="flex gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -262,7 +287,7 @@
         </div>
       </div>
       <div class="flex gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -271,7 +296,7 @@
         </div>
       </div>
       <div class="flex gap-4 hover:bg-[#333333] p-2 hover:text-white">
-        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-56" controls></video>
+        <video src="./public/istockphoto-2165390146-640_adpp_is.mp4" class="w-40 md:w-56" controls></video>
         <div class=" flex flex-col justify-between">
           <p>
             Lorem ipsum dolor, sit amet conse sit amet conse sit amet conse.
@@ -284,9 +309,12 @@
   </div>
 
 
-  <div class="px-8 md:px-10">
-    <p class="font-bold text-4xl py-12">Highlights</p>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:px-20">
+<div class=" md:px-10">
+  <p class="font-bold text-4xl px-4 md:px-0 py-12">Highlights</p>
+    <div class=" flex sm:grid sm:grid-cols-2 md:grid-cols-4 gap-4 md:px-20">
+      <div class="block md:hidden">
+      <i class="fa-solid fa-chevron-left pt-28 text-4xl "></i>
+      </div>
       <div>
         <img src="./public/Sylvie-Carlos-1.jpeg" alt="" />
         <div class="bg-black text-white p-4">
@@ -296,8 +324,10 @@
           </p>
         </div>
       </div>
-
-      <div>
+      <div class="block md:hidden">
+      <i class="fa-solid fa-chevron-right pt-28 text-4xl "></i>
+</div>
+      <div class="hidden md:block">
         <img src="./public/Nicola-Searle-Hong-Kong-Law-Dept.jpeg" alt="" />
         <div class="bg-black text-white p-4">
           <p class="font-medium">
@@ -307,7 +337,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="hidden md:block">
         <img src="./public/VCs-Art-Prize_Web_George-Wigley_001.jpeg" alt="" />
         <div class="bg-black text-white p-4">
           <p class="font-medium">
@@ -317,7 +347,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="hidden md:block">
         <img src="./public/dave-adamson-YE7D_kwm2VU-unsplash-(1).jpeg" alt="" />
         <div class="bg-black text-white p-4">
           <p class="font-medium">
@@ -329,7 +359,8 @@
     </div>
   </div>
 
-  <div class="bg-[#333333]">
+
+<div class="bg-[#333333]">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-10 justify-between text-white font-bold mt-20 p-16">
       <div class="list-none">
         <li class="hover:text-[#FFCD6E]">About us</li>
